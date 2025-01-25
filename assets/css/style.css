@@ -146,7 +146,8 @@ img {
         background-position: center;
     }
     .navbar-brand img {
-        border: 8px solid var(--color-brand);
+        clip-path: circle();
+        /* border: 8px solid var(--color-brand); */
     }
     /* CONTENT WRAPPER */
     #content-wrapper {
